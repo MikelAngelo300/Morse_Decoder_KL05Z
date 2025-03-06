@@ -32,9 +32,3 @@ This project implements a Morse code decoder using the FRDM-KL05Z development bo
 - `lcd1602.h/.c` – Handles LCD display operations.
 - `frdm_bsp.h` – Board support package for handling buttons and interrupts.
 - `klaw.h/.c` – Manages button presses and debouncing.
-
-## Usage Instructions
-1. **Connect the hardware** according to the project documentation.
-2. **Compile and upload** the code to the FRDM-KL05Z board using Keil uVision5.
-3. **Use the button** to input Morse code, and observe the decoded message on the LCD.
-4. **Press the reset button** to clear the message and start over.
